@@ -1,0 +1,180 @@
+
+(session EEPROMwithMAC_24AA025Exx_breakout.ses
+  (base_design EEPROMwithMAC_24AA025Exx_breakout.dsn)
+  (placement
+    (resolution um 10)
+    (component user:USER_0603_HandSoldering
+      (place R2 311150 -452120 front 270)
+      (place R1 326390 -452120 front 270)
+      (place C1 389890 -452120 front 270)
+    )
+    (component "user:USER_SIL-4_PinHeader2"
+      (place P1 350000 -482110 back 180)
+    )
+    (component "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering"
+      (place U1 356870 -452120 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.0.0)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:400_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net VCC
+        (wire
+          (path F.Cu 3048
+            362700 -436064
+            332446 -436064
+            326390 -442120
+          )
+        )
+        (wire
+          (path F.Cu 3048
+            372605 -442120
+            366549 -436064
+            362700 -436064
+          )
+        )
+        (wire
+          (path F.Cu 3048
+            362700 -436064
+            362700 -434487
+          )
+        )
+        (wire
+          (path B.Cu 3048
+            362700 -482110
+            362700 -434487
+          )
+        )
+        (via "Via[0-1]_600:400_um" 362700 -434487
+        )
+        (wire
+          (path F.Cu 3048
+            389890 -442120
+            372605 -442120
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3048
+            372605 -442120
+            370870 -442120
+            370370 -442620
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3048
+            326390 -442120
+            318955 -442120
+          )
+        )
+        (wire
+          (path F.Cu 3048
+            311150 -442120
+            318955 -442120
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 3048
+            370370 -452120
+            343370 -452120
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3048
+            370370 -461620
+            370370 -452120
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3048
+            389890 -462120
+            370870 -462120
+            370370 -461620
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3048
+            389890 -462120
+            389890 -480320
+            388100 -482110
+          )
+          (type protect)
+        )
+      )
+      (net /SCL
+        (wire
+          (path F.Cu 2032
+            343370 -442620
+            356060 -442620
+          )
+        )
+        (wire
+          (path B.Cu 2032
+            311900 -482110
+            351390 -442620
+            356060 -442620
+          )
+        )
+        (via "Via[0-1]_600:400_um" 356060 -442620
+        )
+        (wire
+          (path F.Cu 2032
+            311900 -482110
+            311150 -481360
+            311150 -462120
+          )
+        )
+      )
+      (net /SDA
+        (wire
+          (path F.Cu 2032
+            337300 -462120
+            337800 -461620
+            343370 -461620
+          )
+        )
+        (wire
+          (path F.Cu 2032
+            337300 -482110
+            337300 -462120
+          )
+        )
+        (wire
+          (path F.Cu 2032
+            337300 -462120
+            333687 -462120
+          )
+        )
+        (wire
+          (path F.Cu 2032
+            326390 -462120
+            333687 -462120
+          )
+        )
+      )
+    )
+  )
+)

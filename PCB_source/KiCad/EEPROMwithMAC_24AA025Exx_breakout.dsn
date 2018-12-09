@@ -1,0 +1,169 @@
+(pcb C:\ws\KiCad\EEPROMwithMAC_24AA02E48_breakout\latest\EEPROMwithMAC_24AA025Exx_breakout.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.0.0)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  40000 -50000  30000 -50000  30000 -42500  40000 -42500
+            40000 -50000)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 203.2)
+      (clearance 177.9)
+      (clearance 177.9 (type default_smd))
+      (clearance 44.45 (type smd_smd))
+    )
+  )
+  (placement
+    (component user:USER_0603_HandSoldering
+      (place R2 31115 -45212 front 270 (PN 10k))
+      (place R1 32639 -45212 front 270 (PN 10k))
+      (place C1 38989 -45212 front 270 (PN 0.1u))
+    )
+    (component "user:USER_SIL-4_PinHeader2"
+      (place P1 35000 -48211 back 180 (PN CONN_01X04))
+    )
+    (component "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering"
+      (place U1 35687 -45212 front 0 (PN "24AA02ExxT-I/OT"))
+    )
+  )
+  (library
+    (image user:USER_0603_HandSoldering
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  500 -580  -500 -580))
+      (outline (path signal 120  -500 580  500 580))
+      (outline (path signal 50  -1750 700  1750 700))
+      (outline (path signal 50  -1750 700  -1750 -700))
+      (outline (path signal 50  1750 -700  1750 700))
+      (outline (path signal 50  1750 -700  -1750 -700))
+      (pin Rect[T]Pad_1000x900_um 1 -1000 0)
+      (pin Rect[T]Pad_1000x900_um 2 1000 0)
+    )
+    (image "user:USER_SIL-4_PinHeader2"
+      (outline (path signal 254  -4445 -1270  -3175 -1270))
+      (outline (path signal 254  -3175 -1270  -2540 -635))
+      (outline (path signal 254  -2540 -635  -1905 -1270))
+      (outline (path signal 254  -1905 -1270  -635 -1270))
+      (outline (path signal 254  -635 -1270  0 -635))
+      (outline (path signal 254  0 -635  635 -1270))
+      (outline (path signal 254  635 -1270  1905 -1270))
+      (outline (path signal 254  1905 -1270  2540 -635))
+      (outline (path signal 254  2540 -635  3175 -1270))
+      (outline (path signal 254  3175 -1270  4445 -1270))
+      (outline (path signal 254  4445 1270  3175 1270))
+      (outline (path signal 254  3175 1270  2540 635))
+      (outline (path signal 254  2540 635  1905 1270))
+      (outline (path signal 254  1905 1270  635 1270))
+      (outline (path signal 254  635 1270  0 635))
+      (outline (path signal 254  0 635  -635 1270))
+      (outline (path signal 254  -635 1270  -1905 1270))
+      (outline (path signal 254  -1905 1270  -2540 635))
+      (outline (path signal 254  -2540 635  -3175 1270))
+      (outline (path signal 254  -3175 1270  -4445 1270))
+      (outline (path signal 254  4445 1270  4699 1016))
+      (outline (path signal 254  4445 -1270  4699 -1016))
+      (outline (path signal 254  -4445 -1270  -4699 -1016))
+      (outline (path signal 254  -4445 1270  -4699 1016))
+      (pin Round[A]Pad_1600_um 1 -3810 0)
+      (pin Round[A]Pad_1600_um 2 -1270 0)
+      (pin Round[A]Pad_1600_um 3 1270 0)
+      (pin Round[A]Pad_1600_um 4 3810 0)
+    )
+    (image "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering"
+      (outline (path signal 100  900 1550  900 -1550))
+      (outline (path signal 100  900 -1550  -900 -1550))
+      (outline (path signal 100  -900 900  -900 -1550))
+      (outline (path signal 100  900 1550  -250 1550))
+      (outline (path signal 100  -900 900  -250 1550))
+      (outline (path signal 50  -2400 1800  2400 1800))
+      (outline (path signal 50  2400 1800  2400 -1800))
+      (outline (path signal 50  2400 -1800  -2400 -1800))
+      (outline (path signal 50  -2400 -1800  -2400 1800))
+      (outline (path signal 120  900 1610  -2050 1610))
+      (outline (path signal 120  -900 -1610  900 -1610))
+      (pin Rect[T]Pad_1560x650_um 5 1350 0)
+      (pin Rect[T]Pad_1560x650_um 6 1350 950)
+      (pin Rect[T]Pad_1560x650_um 4 1350 -950)
+      (pin Rect[T]Pad_1560x650_um 3 -1350 -950)
+      (pin Rect[T]Pad_1560x650_um 2 -1350 0)
+      (pin Rect[T]Pad_1560x650_um 1 -1350 950)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x900_um
+      (shape (rect F.Cu -500 -450 500 450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1560x650_um
+      (shape (rect F.Cu -780 -325 780 325))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net VCC
+      (pins R2-1 R1-1 C1-1 P1-3 U1-6)
+    )
+    (net GND
+      (pins C1-2 P1-4 U1-5 U1-4 U1-2)
+    )
+    (net /SCL
+      (pins R2-2 P1-1 U1-1)
+    )
+    (net /SDA
+      (pins R1-2 P1-2 U1-3)
+    )
+    (class kicad_default "" /SCL /SDA
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 203.2)
+        (clearance 177.9)
+      )
+    )
+    (class Power GND VCC
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 304.8)
+        (clearance 177.9)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 304.8  38989 -44212  37087 -44212  37037 -44262)(net VCC)(type protect))
+    (wire (path F.Cu 304.8  38989 -46212  37087 -46212  37037 -46162  37037 -45212
+            34337 -45212)(net GND)(type protect))
+    (wire (path F.Cu 304.8  38989 -46212  38989 -48032  38810 -48211)(net GND)(type protect))
+  )
+)

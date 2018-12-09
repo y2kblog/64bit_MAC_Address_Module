@@ -1,0 +1,188 @@
+EESchema Schematic File Version 4
+LIBS:EEPROMwithMAC_24AA025Exx_breakout-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L conn:CONN_01X04 P1
+U 1 1 5B40419D
+P 700 1400
+F 0 "P1" H 700 1650 50  0000 C CNN
+F 1 "CONN_01X04" V 800 1400 50  0001 C CNN
+F 2 "user:USER_SIL-4_PinHeader2" H 700 1400 50  0001 C CNN
+F 3 "" H 700 1400 50  0000 C CNN
+	1    700  1400
+	-1   0    0    -1  
+$EndComp
+Text Label 950  1250 0    45   ~ 0
+SCL
+Text Label 950  1350 0    45   ~ 0
+SDA
+Wire Wire Line
+	900  1350 1500 1350
+$Comp
+L power:VCC #PWR01
+U 1 1 5B40433D
+P 900 1450
+F 0 "#PWR01" H 900 1300 50  0001 C CNN
+F 1 "VCC" V 900 1650 50  0000 C CNN
+F 2 "" H 900 1450 50  0000 C CNN
+F 3 "" H 900 1450 50  0000 C CNN
+	1    900  1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5B40434E
+P 900 1550
+F 0 "#PWR02" H 900 1300 50  0001 C CNN
+F 1 "GND" V 900 1350 50  0000 C CNN
+F 2 "" H 900 1550 50  0000 C CNN
+F 3 "" H 900 1550 50  0000 C CNN
+	1    900  1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5B4046BF
+P 1800 1100
+F 0 "R2" H 1830 1120 50  0000 L CNN
+F 1 "10k" H 1830 1060 45  0000 L CNN
+F 2 "user:USER_0603_HandSoldering" H 1800 1100 50  0001 C CNN
+F 3 "" H 1800 1100 50  0000 C CNN
+	1    1800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5B404825
+P 1500 1100
+F 0 "R1" H 1530 1120 50  0000 L CNN
+F 1 "10k" H 1530 1060 45  0000 L CNN
+F 2 "user:USER_0603_HandSoldering" H 1500 1100 50  0001 C CNN
+F 3 "" H 1500 1100 50  0000 C CNN
+	1    1500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5B40490A
+P 3000 1400
+F 0 "C1" H 3010 1470 50  0000 L CNN
+F 1 "0.1u" H 3010 1320 50  0000 L CNN
+F 2 "user:USER_0603_HandSoldering" H 3000 1400 50  0001 C CNN
+F 3 "" H 3000 1400 50  0000 C CNN
+	1    3000 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1200 1800 1250
+Wire Wire Line
+	1500 1450 1500 1350
+$Comp
+L power:VCC #PWR03
+U 1 1 5B404DD2
+P 1650 900
+F 0 "#PWR03" H 1650 750 50  0001 C CNN
+F 1 "VCC" H 1650 1050 50  0000 C CNN
+F 2 "" H 1650 900 50  0000 C CNN
+F 3 "" H 1650 900 50  0000 C CNN
+	1    1650 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 950  1800 1000
+Wire Wire Line
+	1500 1000 1500 950 
+$Comp
+L power:VCC #PWR04
+U 1 1 5B4051EC
+P 3000 1200
+F 0 "#PWR04" H 3000 1050 50  0001 C CNN
+F 1 "VCC" H 3000 1350 50  0000 C CNN
+F 2 "" H 3000 1200 50  0000 C CNN
+F 3 "" H 3000 1200 50  0000 C CNN
+	1    3000 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1200 3000 1250
+Wire Wire Line
+	2800 1250 3000 1250
+$Comp
+L power:GND #PWR05
+U 1 1 5B405215
+P 1900 1750
+F 0 "#PWR05" H 1900 1500 50  0001 C CNN
+F 1 "GND" H 1900 1600 50  0000 C CNN
+F 2 "" H 1900 1750 50  0000 C CNN
+F 3 "" H 1900 1750 50  0000 C CNN
+	1    1900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1350 1900 1700
+Wire Wire Line
+	1900 1350 2000 1350
+Connection ~ 1800 1250
+Connection ~ 1500 1350
+Wire Wire Line
+	1500 950  1650 950 
+Wire Wire Line
+	1650 900  1650 950 
+Connection ~ 1650 950 
+Connection ~ 3000 1250
+Wire Wire Line
+	1900 1700 2850 1700
+Connection ~ 1900 1700
+Wire Wire Line
+	2000 1250 1800 1250
+Wire Wire Line
+	1500 1450 2000 1450
+Wire Wire Line
+	1800 1250 900  1250
+Wire Wire Line
+	1500 1350 1500 1200
+Wire Wire Line
+	1650 950  1800 950 
+Wire Wire Line
+	3000 1250 3000 1300
+Wire Wire Line
+	1900 1700 1900 1750
+$Comp
+L user:24AA025ExxT-I_OT U1
+U 1 1 5BD3DCA7
+P 2400 1350
+F 0 "U1" H 2200 1100 40  0000 C CNN
+F 1 "24AA02ExxT-I/OT" H 2400 1600 40  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 2400 1500 30  0001 C CIN
+F 3 "" H 2400 1400 60  0000 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1500 3000 1700
+Wire Wire Line
+	2800 1450 2850 1450
+Wire Wire Line
+	2850 1450 2850 1700
+Connection ~ 2850 1700
+Wire Wire Line
+	2850 1700 3000 1700
+Wire Wire Line
+	2800 1350 2850 1350
+Wire Wire Line
+	2850 1350 2850 1450
+Connection ~ 2850 1450
+$EndSCHEMATC
