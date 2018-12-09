@@ -9,6 +9,8 @@ IPv6、ZigBee、FireWire等のネットワーク接続デバイスに一意の64
 ピンヘッダ含め部品は全て実装済みのため**はんだ付け作業は一切不要**です。また、**Arudinoシールド等に直接挿せるピン配置**となっているため、ジャンパワイヤ等を使わず手軽に接続できます。  
 **MACアドレスを記載したカードを同梱。**
 
+※48bit MACアドレス版は[こちら](https://github.com/y2kblog/48bit_MAC_Address_Module)
+
 ### 仕様
 - 搭載IC：Microchip 24AA025E64T-I/OT
 - メモリ容量：2Kbits (内ユーザ書込み可能領域：1Kbits)
