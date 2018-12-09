@@ -25,7 +25,7 @@ IPv6、ZigBee、FireWire等のネットワーク接続デバイスに一意の64
 - 64bit MACアドレスモジュール本体
 - MACアドレス記載カード
 
-<img src="/images/ProductContents_48bit.jpg" width="300px">
+<img src="/images/ProductContents_64bit.jpg" width="300px">
 
 <!--
 ## 販売  
