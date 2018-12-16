@@ -114,7 +114,8 @@ Arudino UNOの場合、下の写真のように挿すだけでOKです。
 <img src="/images/WiringDiagram_Nucleo.jpg" width="350px">
 
 #### ソースコード
-[ソースコード(NUCLEO-L476RG)](https://github.com/y2kblog/64bit_MAC_Address_Module/blob/master/SampleCode/NUCLEO-L476RG/24AA025Exx_testing)
+
+NUCLEO-L476RGのソースコードは[こちら](https://github.com/y2kblog/64bit_MAC_Address_Module/blob/master/SampleCode/NUCLEO-L476RG/24AA025Exx_testing) (IDE：SW4STM32)
 
 
 ## License
